@@ -14,7 +14,7 @@ struct ContactListSwiftUIApp: App {
             TabView {
                 ContentView()
                     .tabItem {
-                        Image(systemName: "list.dash")
+                        Image(systemName: "person.3.fill")
                         Text("Contacts")
                     }
                 NumbersView()
